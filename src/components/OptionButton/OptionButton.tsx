@@ -4,7 +4,7 @@ import './OptionButton.scss';
 import { useDispatch } from 'react-redux';
 import { useAppSelector } from '../../store/hooks';
 import {
-  changeStage, checkAnswer, getNextQuestion,
+  setStage, checkAnswer, getNextQuestion,
 } from '../../store/gameSlice';
 
 type Props = {
@@ -17,9 +17,10 @@ function OptionButton({ option, optionNumber }: Props) {
   const {
     isAnswerCorrect, selectedAnswer, currentQuestion,
   } = useAppSelector((state) => state.game);
+  const { lang } = useAppSelector((state) => state.language);
 
   const handleOptionClick = () => {
-    const isCorrect = currentQuestion?.correctAnswers.includes(option) || false;
+    const isCorrect = currentQuestion?.correctAnswers[lang].includes(option) || false;
 
     dispatch(checkAnswer({ option, isCorrect }));
 
@@ -27,9 +28,9 @@ function OptionButton({ option, optionNumber }: Props) {
       if (isCorrect) {
         dispatch(getNextQuestion());
       } else {
-        dispatch(changeStage('end'));
+        dispatch(setStage('end'));
       }
-    }, 1500);
+    }, 1000);
   };
 
   return (
@@ -45,7 +46,13 @@ function OptionButton({ option, optionNumber }: Props) {
     >
       <p className="button__text button__text--option">{optionNumber}</p>
 
-      <p className="button__text button__text--answer">{option}</p>
+      <p
+        className={cn('button__text', 'button__text--answer', {
+          'button__text--answer--long': option.length >= 25,
+        })}
+      >
+        {option}
+      </p>
     </button>
   );
 }

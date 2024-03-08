@@ -2,359 +2,2312 @@
   "questions": [
     {
       "id": 1,
-      "text": "What is the capital of France?",
-      "options": ["Paris", "London", "Berlin", "Madrid"],
-      "correctAnswers": ["Paris"],
+      "text": {
+        "en": "What is the capital of France?",
+        "ua": "Яке місто є столицею Франції?"
+      },
+      "options": {
+        "en": [
+          "Paris",
+          "London",
+          "Berlin",
+          "Madrid"
+        ],
+        "ua": [
+          "Париж",
+          "Лондон",
+          "Берлін",
+          "Мадрид"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Paris"
+        ],
+        "ua": [
+          "Париж"
+        ]
+      },
       "prize": 500
     },
     {
       "id": 2,
-      "text": "Which gas do plants absorb from the atmosphere for photosynthesis?",
-      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-      "correctAnswers": ["Carbon Dioxide"],
+      "text": {
+        "en": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+        "ua": "Який газ рослини поглинають із атмосфери для фотосинтезу?"
+      },
+      "options": {
+        "en": [
+          "Oxygen",
+          "Carbon Dioxide",
+          "Nitrogen",
+          "Hydrogen"
+        ],
+        "ua": [
+          "Кисень",
+          "Вуглекислий газ",
+          "Азот",
+          "Водень"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Carbon Dioxide"
+        ],
+        "ua": [
+          "Вуглекислий газ"
+        ]
+      },
       "prize": 500
     },
     {
       "id": 3,
-      "text": "Who wrote 'Hamlet'?",
-      "options": ["William Shakespeare", "Leo Tolstoy", "Mark Twain", "Charles Dickens"],
-      "correctAnswers": ["William Shakespeare"],
+      "text": {
+        "en": "Who wrote 'Hamlet'?",
+        "ua": "Хто є автором 'Гамлета'?"
+      },
+      "options": {
+        "en": [
+          "William Shakespeare",
+          "Leo Tolstoy",
+          "Mark Twain",
+          "Charles Dickens"
+        ],
+        "ua": [
+          "Вільям Шекспір",
+          "Лев Толстой",
+          "Марк Твен",
+          "Чарльз Діккенс"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "William Shakespeare"
+        ],
+        "ua": [
+          "Вільям Шекспір"
+        ]
+      },
       "prize": 500
     },
     {
       "id": 4,
-      "text": "Which element has the chemical symbol 'O'?",
-      "options": ["Gold", "Oxygen", "Silver", "Osmium"],
-      "correctAnswers": ["Oxygen"],
+      "text": {
+        "en": "Which element has the chemical symbol 'O'?",
+        "ua": "Який елемент має хімічний символ 'O'?"
+      },
+      "options": {
+        "en": [
+          "Gold",
+          "Oxygen",
+          "Silver",
+          "Osmium"
+        ],
+        "ua": [
+          "Золото",
+          "Оксиген",
+          "Срібло",
+          "Осмій"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Oxygen"
+        ],
+        "ua": [
+          "Оксиген"
+        ]
+      },
       "prize": 500
     },
     {
       "id": 5,
-      "text": "What is the largest planet in our solar system?",
-      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
-      "correctAnswers": ["Jupiter"],
-      "prize": 1000
+      "text": {
+        "en": "What color do you get when you mix blue and yellow?",
+        "ua": "Який колір виходить, коли змішати синій та жовтий?"
+      },
+      "options": {
+        "en": [
+          "Brown",
+          "Purple",
+          "Green",
+          "Grey"
+        ],
+        "ua": [
+          "Коричневий",
+          "Фіолетовий",
+          "Зелений",
+          "Сірий"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Green"
+        ],
+        "ua": [
+          "Зелений"
+        ]
+      },
+      "prize": 500
     },
     {
       "id": 6,
-      "text": "What is the hardest natural substance on Earth?",
-      "options": ["Gold", "Iron", "Diamond", "Quartz"],
-      "correctAnswers": ["Diamond"],
+      "text": {
+        "en": "What is the largest planet in our solar system?",
+        "ua": "Яка найбільша планета в нашій сонячній системі?"
+      },
+      "options": {
+        "en": [
+          "Earth",
+          "Mars",
+          "Jupiter",
+          "Saturn"
+        ],
+        "ua": [
+          "Земля",
+          "Марс",
+          "Юпітер",
+          "Сатурн"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Jupiter"
+        ],
+        "ua": [
+          "Юпітер"
+        ]
+      },
       "prize": 1000
     },
     {
       "id": 7,
-      "text": "Which ocean is the largest?",
-      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-      "correctAnswers": ["Pacific Ocean"],
+      "text": {
+        "en": "Which planet is closest to the Sun?",
+        "ua": "Яка планета найближча до Сонця?"
+      },
+      "options": {
+        "en": [
+          "Venus",
+          "Earth",
+          "Mars",
+          "Mercury"
+        ],
+        "ua": [
+          "Венера",
+          "Земля",
+          "Марс",
+          "Меркурій"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Mercury"
+        ],
+        "ua": [
+          "Меркурій"
+        ]
+      },
       "prize": 1000
     },
     {
       "id": 8,
-      "text": "Who is the author of the Harry Potter series?",
-      "options": ["J.R.R. Tolkien", "J.K. Rowling", "Stephen King", "C.S. Lewis"],
-      "correctAnswers": ["J.K. Rowling"],
+      "text": {
+        "en": "What is the hardest natural substance on Earth?",
+        "ua": "Яка найтвердіша природна речовина на Землі?"
+      },
+      "options": {
+        "en": [
+          "Gold",
+          "Iron",
+          "Diamond",
+          "Quartz"
+        ],
+        "ua": [
+          "Золото",
+          "Залізо",
+          "Алмаз",
+          "Кварц"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Diamond"
+        ],
+        "ua": [
+          "Алмаз"
+        ]
+      },
       "prize": 1000
     },
     {
       "id": 9,
-      "text": "How many musicians are there in a quartet?",
-      "options": ["2", "4", "6", "8"],
-      "correctAnswers": ["4"],
+      "text": {
+        "en": "Which ocean is the largest?",
+        "ua": "Який океан є найбільшим?"
+      },
+      "options": {
+        "en": [
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Arctic Ocean",
+          "Pacific Ocean"
+        ],
+        "ua": [
+          "Атлантичний океан",
+          "Індійський океан",
+          "Північний Льодовитий океан",
+          "Тихий океан"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Pacific Ocean"
+        ],
+        "ua": [
+          "Тихий океан"
+        ]
+      },
       "prize": 1000
     },
     {
       "id": 10,
-      "text": "Which of these is not a chess piece?",
-      "options": ["Queen", "King", "Viscount", "Knight"],
-      "correctAnswers": ["Viscount"],
-      "prize": 2000
+      "text": {
+        "en": "Who is the author of the Harry Potter series?",
+        "ua": "Хто є автором серії книг про Гаррі Поттера?"
+      },
+      "options": {
+        "en": [
+          "J.R.R. Tolkien",
+          "J.K. Rowling",
+          "Stephen King",
+          "C.S. Lewis"
+        ],
+        "ua": [
+          "Дж. Р. Р. Толкін",
+          "Дж. К. Ролінг",
+          "Стівен Кінг",
+          "К. С. Льюїс"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "J.K. Rowling"
+        ],
+        "ua": [
+          "Дж. К. Ролінг"
+        ]
+      },
+      "prize": 1000
     },
     {
       "id": 11,
-      "text": "Which of these countries is NOT a part of the United Kingdom?",
-      "options": ["Scotland", "Wales", "Ireland", "Northern Ireland"],
-      "correctAnswers": ["Ireland"],
-      "prize": 2000
+      "text": {
+        "en": "How many musicians are there in a quartet?",
+        "ua": "Скільки музикантів у квартеті?"
+      },
+      "options": {
+        "en": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "ua": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "4"
+        ],
+        "ua": [
+          "4"
+        ]
+      },
+      "prize": 1000
     },
     {
       "id": 12,
-      "text": "How many continents are there on Earth?",
-      "options": ["Six", "Seven", "Eight", "Five"],
-      "correctAnswers": ["Seven"],
-      "prize": 2000
+      "text": {
+        "en": "Which bird is traditionally associated with wisdom?",
+        "ua": "Який птах традиційно асоціюється з мудрістю?"
+      },
+      "options": {
+        "en": [
+          "Eagle",
+          "Sparrow",
+          "Peacock",
+          "Owl"
+        ],
+        "ua": [
+          "Орел",
+          "Горобець",
+          "Павич",
+          "Сова"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Owl"
+        ],
+        "ua": [
+          "Сова"
+        ]
+      },
+      "prize": 1000
     },
     {
       "id": 13,
-      "text": "Who wrote 'To Be or Not to Be'?",
-      "options": ["William Shakespeare", "Charles Dickens", "Leo Tolstoy", "Mark Twain"],
-      "correctAnswers": ["William Shakespeare"],
+      "text": {
+        "en": "Which of these is not a chess piece?",
+        "ua": "Що з цього не є шаховою фігурою?"
+      },
+      "options": {
+        "en": [
+          "Queen",
+          "King",
+          "Viscount",
+          "Knight"
+        ],
+        "ua": [
+          "Ферзь",
+          "Король",
+          "Віконт",
+          "Кінь"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Viscount"
+        ],
+        "ua": [
+          "Віконт"
+        ]
+      },
       "prize": 2000
     },
     {
       "id": 14,
-      "text": "Who painted the Mona Lisa?",
-      "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
-      "correctAnswers": ["Leonardo da Vinci"],
-      "prize": 4000
+      "text": {
+        "en": "Which of these countries is NOT a part of the United Kingdom?",
+        "ua": "Яка з цих країн НЕ є частиною Сполученого Королівства?"
+      },
+      "options": {
+        "en": [
+          "Scotland",
+          "Wales",
+          "Ireland",
+          "Northern Ireland"
+        ],
+        "ua": [
+          "Шотландія",
+          "Уельс",
+          "Ірландія",
+          "Північна Ірландія"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Ireland"
+        ],
+        "ua": [
+          "Ірландія"
+        ]
+      },
+      "prize": 2000
     },
     {
       "id": 15,
-      "text": "Which of the following is the design or arrangement of staged dance?",
-      "options": ["Photography", "Typography", "Choreography", "Bibliography"],
-      "correctAnswers": ["Choreography"],
-      "prize": 4000
+      "text": {
+        "en": "How many continents are there on Earth?",
+        "ua": "Скільки континентів на Землі?"
+      },
+      "options": {
+        "en": [
+          "Six",
+          "Seven",
+          "Eight",
+          "Five"
+        ],
+        "ua": [
+          "Шість",
+          "Сім",
+          "Вісім",
+          "П'ять"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Seven"
+        ],
+        "ua": [
+          "Сім"
+        ]
+      },
+      "prize": 2000
     },
     {
       "id": 16,
-      "text": "What is the capital city of Japan?",
-      "options": ["Tokyo", "Kyoto", "Osaka", "Hiroshima"],
-      "correctAnswers": ["Tokyo"],
-      "prize": 4000
+      "text": {
+        "en": "Who wrote 'To Be or Not to Be'?",
+        "ua": "Хто написав 'Бути чи не бути'?"
+      },
+      "options": {
+        "en": [
+          "Charles Dickens",
+          "Leo Tolstoy",
+          "William Shakespeare",
+          "Mark Twain"
+        ],
+        "ua": [
+          "Чарльз Діккенс",
+          "Лев Толстой",
+          "Вільям Шекспір",
+          "Марк Твен"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "William Shakespeare"
+        ],
+        "ua": [
+          "Вільям Шекспір"
+        ]
+      },
+      "prize": 2000
     },
     {
       "id": 17,
-      "text": "What is the name of the longest river in the world?",
-      "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
-      "correctAnswers": ["Amazon"],
-      "prize": 8000
+      "text": {
+        "en": "Which part of the maple tree is represented on the Canadian flag?",
+        "ua": "Яка частина клену зображена на прапорі Канади?"
+      },
+      "options": {
+        "en": [
+          "Root",
+          "Bark",
+          "Seed",
+          "Leaf"
+        ],
+        "ua": [
+          "Корінь",
+          "Кора",
+          "Насіння",
+          "Лист"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Leaf"
+        ],
+        "ua": [
+          "Лист"
+        ]
+      },
+      "prize": 2000
     },
     {
       "id": 18,
-      "text": "Which country is known as the Land of the Rising Sun?",
-      "options": ["China", "Japan", "South Korea", "Thailand"],
-      "correctAnswers": ["Japan"],
-      "prize": 8000
+      "text": {
+        "en": "Which of these chemical elements is not a metal?",
+        "ua": "Який з цих хімічних елементів не є металом?"
+      },
+      "options": {
+        "en": [
+          "Iron",
+          "Copper",
+          "Aluminum",
+          "Helium"
+        ],
+        "ua": [
+          "Залізо",
+          "Мідь",
+          "Алюміній",
+          "Гелій"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Helium"
+        ],
+        "ua": [
+          "Гелій"
+        ]
+      },
+      "prize": 2000
     },
     {
       "id": 19,
-      "text": "Which planet is known as the Red Planet?",
-      "options": ["Mars", "Jupiter", "Saturn", "Venus"],
-      "correctAnswers": ["Mars"],
-      "prize": 8000
+      "text": {
+        "en": "Which animal is known as the 'Ship of the Desert'?",
+        "ua": "Яка тварина відома як 'Корабель пустелі'?"
+      },
+      "options": {
+        "en": [
+          "Camel",
+          "Horse",
+          "Elephant",
+          "Lion"
+        ],
+        "ua": [
+          "Верблюд",
+          "Кінь",
+          "Слон",
+          "Лев"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Camel"
+        ],
+        "ua": [
+          "Верблюд"
+        ]
+      },
+      "prize": 2000
     },
     {
       "id": 20,
-      "text": "In what year did World War II end?",
-      "options": ["1945", "1944", "1946", "1947"],
-      "correctAnswers": ["1945"],
-      "prize": 8000
+      "text": {
+        "en": "Who painted the Mona Lisa?",
+        "ua": "Хто написав Мону Лізу?"
+      },
+      "options": {
+        "en": [
+          "Leonardo da Vinci",
+          "Michelangelo",
+          "Raphael",
+          "Donatello"
+        ],
+        "ua": [
+          "Леонардо да Вінчі",
+          "Мікеланджело",
+          "Рафаель",
+          "Донателло"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Leonardo da Vinci"
+        ],
+        "ua": [
+          "Леонардо да Вінчі"
+        ]
+      },
+      "prize": 4000
     },
     {
       "id": 21,
-      "text": "Where traditionally do birds fly in winter?",
-      "options": ["North", "East", "South", "West"],
-      "correctAnswers": ["South"],
-      "prize": 8000
+      "text": {
+        "en": "Which of the following is the design or arrangement of staged dance?",
+        "ua": "Що з цього є дизайном або постановкою сценічного танцю?"
+      },
+      "options": {
+        "en": [
+          "Photography",
+          "Typography",
+          "Choreography",
+          "Bibliography"
+        ],
+        "ua": [
+          "Фотографія",
+          "Типографія",
+          "Хореографія",
+          "Бібліографія"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Choreography"
+        ],
+        "ua": [
+          "Хореографія"
+        ]
+      },
+      "prize": 4000
     },
     {
       "id": 22,
-      "text": "What is the chemical symbol for gold?",
-      "options": ["Au", "Ag", "Ge", "Ga"],
-      "correctAnswers": ["Au"],
-      "prize": 16000
+      "text": {
+        "en": "What is the capital city of Japan?",
+        "ua": "Яка столиця Японії?"
+      },
+      "options": {
+        "en": [
+          "Kyoto",
+          "Osaka",
+          "Tokyo",
+          "Hiroshima"
+        ],
+        "ua": [
+          "Кіото",
+          "Осака",
+          "Токіо",
+          "Хіросіма"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Tokyo"
+        ],
+        "ua": [
+          "Токіо"
+        ]
+      },
+      "prize": 4000
     },
     {
       "id": 23,
-      "text": "What does HTML stand for?",
-      "options": ["Hyperlinks and Text Markup Language", "Hyper Text Markup Language", "Home Tool Markup Language", "Hyper Tool Markup Language"],
-      "correctAnswers": ["Hyper Text Markup Language"],
-      "prize": 16000
+      "text": {
+        "en": "Which vitamin is known as ascorbic acid?",
+        "ua": "Який вітамін відомий як аскорбінова кислота?"
+      },
+      "options": {
+        "en": [
+          "Vitamin A",
+          "Vitamin B12",
+          "Vitamin C",
+          "Vitamin D"
+        ],
+        "ua": [
+          "Вітамін A",
+          "Вітамін B12",
+          "Вітамін C",
+          "Вітамін D"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Vitamin C"
+        ],
+        "ua": [
+          "Вітамін C"
+        ]
+      },
+      "prize": 4000
     },
     {
       "id": 24,
-      "text": "Which of the following is an alkaloid drug found in tea leaves and coffee beans?",
-      "options": ["Bromine", "Iodine", "Ethane", "Caffeine"],
-      "correctAnswers": ["Caffeine"],
-      "prize": 16000
+      "text": {
+        "en": "Which of these is a type of rap music?",
+        "ua": "Що з переліченого є напрямом реп-музики?"
+      },
+      "options": {
+        "en": [
+          "Jazz",
+          "Blues",
+          "Classical",
+          "Hip Hop"
+        ],
+        "ua": [
+          "Джаз",
+          "Блюз",
+          "Класика",
+          "Хіп-хоп"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Hip Hop"
+        ],
+        "ua": [
+          "Хіп-хоп"
+        ]
+      },
+      "prize": 4000
     },
     {
       "id": 25,
-      "text": "What is the currency of Japan?",
-      "options": ["Yen", "Won", "Yuan", "Ringgit"],
-      "correctAnswers": ["Yen"],
-      "prize": 16000
+      "text": {
+        "en": "What is the centre of the American film industry?",
+        "ua": "Що є центром американської кіноіндустрії?"
+      },
+      "options": {
+        "en": [
+          "New York City",
+          "Las Vegas",
+          "Miami",
+          "Hollywood"
+        ],
+        "ua": [
+          "Нью-Йорк",
+          "Лас-Вегас",
+          "Маямі",
+          "Голлівуд"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Hollywood"
+        ],
+        "ua": [
+          "Голлівуд"
+        ]
+      },
+      "prize": 4000
     },
     {
       "id": 26,
-      "text": "Which of the following is a famous landmark in Paris?",
-      "options": ["Piffel Heights", "Waffel Block", "Eiffel Tower", "Drivel Rise"],
-      "correctAnswers": ["Eiffel Tower"],
-      "prize": 16000
+      "text": {
+        "en": "What is the name of the longest river in the world?",
+        "ua": "Як називається найдовша річка у світі?"
+      },
+      "options": {
+        "en": [
+          "Amazon",
+          "Nile",
+          "Yangtze",
+          "Mississippi"
+        ],
+        "ua": [
+          "Амазонка",
+          "Ніл",
+          "Янцзи",
+          "Міссісіпі"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Amazon"
+        ],
+        "ua": [
+          "Амазонка"
+        ]
+      },
+      "prize": 8000
     },
     {
       "id": 27,
-      "text": "Which of these elements is needed to make nuclear energy and weapons?",
-      "options": ["Plutonium", "Iron", "Lead", "Mercury"],
-      "correctAnswers": ["Plutonium"],
-      "prize": 32000
+      "text": {
+        "en": "Which country is known as the Land of the Rising Sun?",
+        "ua": "Яка країна відома як Країна висхідного сонця?"
+      },
+      "options": {
+        "en": [
+          "China",
+          "South Korea",
+          "Thailand",
+          "Japan"
+        ],
+        "ua": [
+          "Китай",
+          "Південна Корея",
+          "Таїланд",
+          "Японія"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Japan"
+        ],
+        "ua": [
+          "Японія"
+        ]
+      },
+      "prize": 8000
     },
     {
       "id": 28,
-      "text": "In Egyptian mythology, what had the head of a man and the body of a lion?",
-      "options": ["Lynx", "Sphinx", "Stinx", "Minx"],
-      "correctAnswers": ["Sphinx"],
-      "prize": 32000
+      "text": {
+        "en": "Which planet is known as the Red Planet?",
+        "ua": "Яка планета відома як Червона планета?"
+      },
+      "options": {
+        "en": [
+          "Mars",
+          "Jupiter",
+          "Saturn",
+          "Venus"
+        ],
+        "ua": [
+          "Марс",
+          "Юпітер",
+          "Сатурн",
+          "Венера"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Mars"
+        ],
+        "ua": [
+          "Марс"
+        ]
+      },
+      "prize": 8000
     },
     {
       "id": 29,
-      "text": "In Egyptian mythology, what had the head of a man and the body of a lion?Which of the following is not a type of pasta?",
-      "options": ["Tagliatelli", "Vermicelli", "Tandoori", "Cannelloni"],
-      "correctAnswers": ["Tandoori"],
-      "prize": 32000
+      "text": {
+        "en": "In what year did World War II end?",
+        "ua": "У якому році закінчилася Друга світова війна?"
+      },
+      "options": {
+        "en": [
+          "1945",
+          "1944",
+          "1946",
+          "1947"
+        ],
+        "ua": [
+          "1945",
+          "1944",
+          "1946",
+          "1947"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "1945"
+        ],
+        "ua": [
+          "1945"
+        ]
+      },
+      "prize": 8000
     },
     {
       "id": 30,
-      "text": "Which of these is a home-made petrol bomb?",
-      "options": ["Harvey Wallbanger", "Molotov Cocktail", "Pina Colada", "Tom Collins"],
-      "correctAnswers": ["Molotov Cocktail"],
-      "prize": 32000
+      "text": {
+        "en": "How many X's are there on a regular clock face with Roman numerals?",
+        "ua": "Скільки X є на циферблаті годинника з римськими цифрами?"
+      },
+      "options": {
+        "en": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "ua": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "4"
+        ],
+        "ua": [
+          "4"
+        ]
+      },
+      "prize": 8000
     },
     {
       "id": 31,
-      "text": "In computer science, what does 'CPU' stand for?",
-      "options": ["Central Processing Unit", "Computer Personal Unit", "Central Personal Unit", "Control Processing Unit"],
-      "correctAnswers": ["Central Processing Unit"],
-      "prize": 64000
+      "text": {
+        "en": "Where traditionally do birds fly in winter?",
+        "ua": "Куди традиційно відлітають птахи взимку?"
+      },
+      "options": {
+        "en": [
+          "North",
+          "East",
+          "South",
+          "West"
+        ],
+        "ua": [
+          "На північ",
+          "На схід",
+          "На південь",
+          "На захід"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "South"
+        ],
+        "ua": [
+          "На південь"
+        ]
+      },
+      "prize": 8000
     },
     {
       "id": 32,
-      "text": "In which country did the Olympic Games originate?",
-      "options": ["Greece", "Italy", "France", "England"],
-      "correctAnswers": ["Greece"],
-      "prize": 64000
+      "text": {
+        "en": "According to the Highway Code, what shape is the standard sign giving the order to 'Stop'?",
+        "ua": "Згідно з Правилами дорожнього руху, якої форми стандартний знак із наказом зупинитися?"
+      },
+      "options": {
+        "en": [
+          "Pentagon",
+          "Hexagon",
+          "Heptagon",
+          "Octagon"
+        ],
+        "ua": [
+          "П'ятикутник",
+          "Шестикутник",
+          "Семикутник",
+          "Восьмикутник"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Octagon"
+        ],
+        "ua": [
+          "Восьмикутник"
+        ]
+      },
+      "prize": 8000
     },
     {
       "id": 33,
-      "text": "Which of these is a national daily newspaper in the UK?",
-      "options": ["The Sun", "The Moon", "The Meteor", "The Comet"],
-      "correctAnswers": ["The Sun"],
-      "prize": 64000
+      "text": {
+        "en": "Followers of which religion worship Allah?",
+        "ua": "Послідовники якої релігії поклоняються Аллаху?"
+      },
+      "options": {
+        "en": [
+          "Christianity",
+          "Buddhism",
+          "Hinduism",
+          "Islam"
+        ],
+        "ua": [
+          "Християнство",
+          "Буддизм",
+          "Індуїзм",
+          "Іслам"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Islam"
+        ],
+        "ua": [
+          "Іслам"
+        ]
+      },
+      "prize": 8000
     },
     {
       "id": 34,
-      "text": "Which of the following is a geological period?",
-      "options": ["Boracic", "Frantic", "Acidic", "Jurassic"],
-      "correctAnswers": ["Jurassic"],
-      "prize": 64000
+      "text": {
+        "en": "What is the chemical symbol for gold?",
+        "ua": "Який хімічний елемент позначає золото?"
+      },
+      "options": {
+        "en": [
+          "Au",
+          "Ag",
+          "Ge",
+          "Ga"
+        ],
+        "ua": [
+          "Au",
+          "Ag",
+          "Ge",
+          "Ga"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Au"
+        ],
+        "ua": [
+          "Au"
+        ]
+      },
+      "prize": 16000
     },
     {
       "id": 35,
-      "text": "What year did the Titanic sink?",
-      "options": ["1912", "1911", "1913", "1914"],
-      "correctAnswers": ["1912"],
-      "prize": 125000
+      "text": {
+        "en": "What does HTML stand for?",
+        "ua": "Що означає абревіатура HTML?"
+      },
+      "options": {
+        "en": [
+          "Hyperlinks and Text Markup Language",
+          "Hyper Text Markup Language",
+          "Home Tool Markup Language",
+          "Hyper Tool Markup Language"
+        ],
+        "ua": [
+          "Гіперпосилання і мова розмітки тексту",
+          "Гіпертекстова мова розмітки",
+          "Домашня інструментальна мова розмітки",
+          "Гіперінструментальна мова розмітки"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Hyper Text Markup Language"
+        ],
+        "ua": [
+          "Гіпертекстова мова розмітки"
+        ]
+      },
+      "prize": 16000
     },
     {
       "id": 36,
-      "text": "What is the smallest country in the world?",
-      "options": ["Monaco", "Nauru", "Vatican City", "San Marino"],
-      "correctAnswers": ["Vatican City"],
-      "prize": 125000
+      "text": {
+        "en": "Which of the following is an alkaloid drug found in tea leaves and coffee beans?",
+        "ua": "Який з цього є алкалоїдним наркотиком, що знаходиться в листі чаю та кавових зернах?"
+      },
+      "options": {
+        "en": [
+          "Bromine",
+          "Iodine",
+          "Ethane",
+          "Caffeine"
+        ],
+        "ua": [
+          "Бром",
+          "Йод",
+          "Етан",
+          "Кофеїн"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Caffeine"
+        ],
+        "ua": [
+          "Кофеїн"
+        ]
+      },
+      "prize": 16000
     },
     {
       "id": 37,
-      "text": "Who is known as the father of geometry?",
-      "options": ["Euclid", "Archimedes", "Pythagoras", "Aristotle"],
-      "correctAnswers": ["Euclid"],
-      "prize": 125000
+      "text": {
+        "en": "What is the currency of Japan?",
+        "ua": "Яка валюта Японії?"
+      },
+      "options": {
+        "en": [
+          "Yen",
+          "Won",
+          "Yuan",
+          "Ringgit"
+        ],
+        "ua": [
+          "Єна",
+          "Вон",
+          "Юань",
+          "Ринггіт"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Yen"
+        ],
+        "ua": [
+          "Єна"
+        ]
+      },
+      "prize": 16000
     },
     {
       "id": 38,
-      "text": "What is the largest mammal in the world?",
-      "options": ["African Elephant", "Blue Whale", "Giraffe", "White Rhino"],
-      "correctAnswers": ["Blue Whale"],
-      "prize": 125000
+      "text": {
+        "en": "Which of the following is a famous landmark in Paris?",
+        "ua": "Що з переліченого є відомою пам'яткою в Парижі?"
+      },
+      "options": {
+        "en": [
+          "Piffel Heights",
+          "Waffel Block",
+          "Eiffel Tower",
+          "Drivel Rise"
+        ],
+        "ua": [
+          "Піффель Хайтс",
+          "Ваффель Блок",
+          "Ейфелева вежа",
+          "Дрівел Райз"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Eiffel Tower"
+        ],
+        "ua": [
+          "Ейфелева вежа"
+        ]
+      },
+      "prize": 16000
     },
     {
       "id": 39,
-      "text": "Which organ in the human body produces insulin?",
-      "options": ["Pancreas", "Liver", "Kidney", "Heart"],
-      "correctAnswers": ["Pancreas"],
-      "prize": 250000
+      "text": {
+        "en": "The national flag of which of these countries does not feature three horizontal stripes?",
+        "ua": "Національний прапор якої з цих країн не має трьох горизонтальних смуг?"
+      },
+      "options": {
+        "en": [
+          "Russia",
+          "Romania",
+          "Hungary",
+          "Germany"
+        ],
+        "ua": [
+          "Росія",
+          "Румунія",
+          "Угорщина",
+          "Німеччина"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Romania"
+        ],
+        "ua": [
+          "Румунія"
+        ]
+      },
+      "prize": 16000
     },
     {
       "id": 40,
-      "text": "Which is a weakness in a person's character?",
-      "options": ["Hector's elbow", "Priam's nose", "Paris's knee", "Achilles' heel"],
-      "correctAnswers": ["Achilles' heel"],
-      "prize": 250000
+      "text": {
+        "en": "Which of these is a famous fashion designer?",
+        "ua": "Хто з перелічених нижче людей є відомим дизайнером?"
+      },
+      "options": {
+        "en": [
+          "Mark Zuckerberg",
+          "Steve Jobs",
+          "Elon Musk",
+          "Calvin Klein"
+        ],
+        "ua": [
+          "Марк Цукерберг",
+          "Стів Джобс",
+          "Ілон Маск",
+          "Кельвін Кляйн"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Calvin Klein"
+        ],
+        "ua": [
+          "Кельвін Кляйн"
+        ]
+      },
+      "prize": 16000
     },
     {
       "id": 41,
-      "text": "How are the Prime Minister and senior ministers known collectively?",
-      "options": ["The Chest", "The Wardrobe", "The Dresser", "The Cabinet"],
-      "correctAnswers": ["The Cabinet"],
-      "prize": 250000
+      "text": {
+        "en": "Which of these elements is needed to make nuclear energy and weapons?",
+        "ua": "Який з цих елементів необхідний для створення ядерної енергії та зброї?"
+      },
+      "options": {
+        "en": [
+          "Plutonium",
+          "Iron",
+          "Lead",
+          "Mercury"
+        ],
+        "ua": [
+          "Плутоній",
+          "Залізо",
+          "Свинець",
+          "Ртуть"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Plutonium"
+        ],
+        "ua": [
+          "Плутоній"
+        ]
+      },
+      "prize": 32000
     },
     {
       "id": 42,
-      "text": "What is the capital city of Australia?",
-      "options": ["Sydney", "Melbourne", "Perth", "Canberra"],
-      "correctAnswers": ["Canberra"],
-      "prize": 250000
+      "text": {
+        "en": "In Egyptian mythology, what had the head of a man and the body of a lion?",
+        "ua": "В єгипетській мітології, що мало голову людини та тіло лева?"
+      },
+      "options": {
+        "en": [
+          "Lynx",
+          "Sphinx",
+          "Stinx",
+          "Minx"
+        ],
+        "ua": [
+          "Рись",
+          "Сфінкс",
+          "Стінкс",
+          "Мінкс"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Sphinx"
+        ],
+        "ua": [
+          "Сфінкс"
+        ]
+      },
+      "prize": 32000
     },
     {
       "id": 43,
-      "text": "Lebanon is a country on which continent?",
-      "options": ["Africa", "Asia", "South America", "Europe"],
-      "correctAnswers": ["Asia"],
-      "prize": 250000
+      "text": {
+        "en": "Which of the following is not a type of pasta?",
+        "ua": "Що з переліченого не є типом пасти?"
+      },
+      "options": {
+        "en": [
+          "Tagliatelli",
+          "Vermicelli",
+          "Tandoori",
+          "Cannelloni"
+        ],
+        "ua": [
+          "Тальятеллі",
+          "Вермішель",
+          "Тандурі",
+          "Каннеллоні"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Tandoori"
+        ],
+        "ua": [
+          "Тандурі"
+        ]
+      },
+      "prize": 32000
     },
     {
       "id": 44,
-      "text": "Which element has the highest melting point?",
-      "options": ["Tungsten", "Iron", "Gold", "Platinum"],
-      "correctAnswers": ["Tungsten"],
-      "prize": 500000
+      "text": {
+        "en": "Which of these is a home-made petrol bomb?",
+        "ua": "Який з цих є домашньою бензиновою бомбою?"
+      },
+      "options": {
+        "en": [
+          "Harvey Wallbanger",
+          "Molotov Cocktail",
+          "Pina Colada",
+          "Tom Collins"
+        ],
+        "ua": [
+          "Харві Волбенгер",
+          "Коктейль Молотова",
+          "Піна Колада",
+          "Том Коллінз"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Molotov Cocktail"
+        ],
+        "ua": [
+          "Коктейль Молотова"
+        ]
+      },
+      "prize": 32000
     },
     {
       "id": 45,
-      "text": "In Greek mythology, what was left in Pandora's box?",
-      "options": ["Faith", "Hope", "Charity", "Justice"],
-      "correctAnswers": ["Hope"],
-      "prize": 500000
+      "text": {
+        "en": "What name was given to the style of architectural design popular in the 1890s?",
+        "ua": "Яку назву отримав популярний у 1890-х роках стиль архітектури?"
+      },
+      "options": {
+        "en": [
+          "Art Deco",
+          "Cubism",
+          "Baroque",
+          "Art Nouveau"
+        ],
+        "ua": [
+          "Арт-деко",
+          "Кубізм",
+          "Бароко",
+          "Модерн"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Baroque"
+        ],
+        "ua": [
+          "Бароко"
+        ]
+      },
+      "prize": 32000
     },
     {
       "id": 46,
-      "text": "Which of the following men does not have a chemical element named for him?",
-      "options": ["Albert Einstein", "Niels Bohr", "Isaac Newton", "Enrico Fermi"],
-      "correctAnswers": ["Isaac Newton"],
-      "prize": 500000
+      "text": {
+        "en": "Which country produces the most cars in the world?",
+        "ua": "Яка країна виготовляє більшість автомобілів у світі?"
+      },
+      "options": {
+        "en": [
+          "United States of America",
+          "Germany",
+          "Japan",
+          "China"
+        ],
+        "ua": [
+          "Сполучені Штати Америки",
+          "Німеччина",
+          "Японія",
+          "Китай"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "China"
+        ],
+        "ua": [
+          "Китай"
+        ]
+      },
+      "prize": 32000
     },
     {
       "id": 47,
-      "text": "Who is credited with inventing the first mass-produced helicopter?",
-      "options": ["Elmer Sperry", "Ihor Sikorsky", "Ferdinand von Zeppelin", "Gottlieb Daimler"],
-      "correctAnswers": ["Ihor Sikorsky"],
-      "prize": 500000
+      "text": {
+        "en": "Which company was co-founded by Bill Gates?",
+        "ua": "Яку компанію було співзасновано Біллом Ґейтсом?"
+      },
+      "options": {
+        "en": [
+          "Apple",
+          "Microsoft",
+          "Google",
+          "Amazon"
+        ],
+        "ua": [
+          "Епл",
+          "Майкрософт",
+          "Ґуґл",
+          "Амазон"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Microsoft"
+        ],
+        "ua": [
+          "Майкрософт"
+        ]
+      },
+      "prize": 32000
     },
     {
       "id": 48,
-      "text": "Which of the following is a name for Ireland?",
-      "options": ["Scarlet Reef", "Azure Eyot", "Emerald Isle", "Sable Sandbank"],
-      "correctAnswers": ["Emerald Isle"],
-      "prize": 500000
+      "text": {
+        "en": "In computer science, what does 'CPU' stand for?",
+        "ua": "У комп'ютерних науках, що означає абревіатура 'CPU'?"
+      },
+      "options": {
+        "en": [
+          "Central Processing Unit",
+          "Computer Personal Unit",
+          "Central Personal Unit",
+          "Control Processing Unit"
+        ],
+        "ua": [
+          "Центральний процесорний блок",
+          "Комп'ютерний персональний блок",
+          "Центральний персональний блок",
+          "Контрольний процесорний блок"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Central Processing Unit"
+        ],
+        "ua": [
+          "Центральний процесорний блок"
+        ]
+      },
+      "prize": 64000
     },
     {
       "id": 49,
-      "text": "According to the United Nations, in what year was the world's population half of its present total?",
-      "options": ["1950", "1960", "1970", "1940"],
-      "correctAnswers": ["1960"],
-      "prize": 1000000
+      "text": {
+        "en": "In which country did the Olympic Games originate?",
+        "ua": "У якій країні виникли Олімпійські ігри?"
+      },
+      "options": {
+        "en": [
+          "Greece",
+          "Italy",
+          "France",
+          "England"
+        ],
+        "ua": [
+          "Греція",
+          "Італія",
+          "Франція",
+          "Англія"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Greece"
+        ],
+        "ua": [
+          "Греція"
+        ]
+      },
+      "prize": 64000
     },
     {
       "id": 50,
-      "text": "Thessaloníki is the second largest city of which European country?",
-      "options": ["Albania", "Turkey", "Greece", "Bulgaria"],
-      "correctAnswers": ["Greece"],
-      "prize": 1000000
+      "text": {
+        "en": "Which month of the year was named after Julius Caesar?",
+        "ua": "Який місяць року названо на честь Юлія Цезаря?"
+      },
+      "options": {
+        "en": [
+          "October",
+          "June",
+          "July",
+          "August"
+        ],
+        "ua": [
+          "Жовтень",
+          "Червень",
+          "Липень",
+          "Серпень"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "July"
+        ],
+        "ua": [
+          "Липень"
+        ]
+      },
+      "prize": 64000
     },
     {
       "id": 51,
-      "text": "Who is not a patron saint of a country of the United Kingdom?",
-      "options": ["St Gregory", "St David", "St Andrew", "St George"],
-      "correctAnswers": ["St Gregory"],
+      "text": {
+        "en": "Which of these is a national daily newspaper in the UK?",
+        "ua": "Що з переліченого є національною щоденною газетою у Великій Британії?"
+      },
+      "options": {
+        "en": [
+          "The Sun",
+          "The Moon",
+          "The Meteor",
+          "The Comet"
+        ],
+        "ua": [
+          "The Sun",
+          "The Moon",
+          "The Meteor",
+          "The Comet"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "The Sun"
+        ],
+        "ua": [
+          "The Sun"
+        ]
+      },
+      "prize": 64000
+    },
+    {
+      "id": 52,
+      "text": {
+        "en": "Which of the following is a geological period?",
+        "ua": "Що з переліченого є геологічним періодом?"
+      },
+      "options": {
+        "en": [
+          "Boracic",
+          "Frantic",
+          "Acidic",
+          "Jurassic"
+        ],
+        "ua": [
+          "Борацький",
+          "Франтичний",
+          "Ацидичний",
+          "Юрський"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Jurassic"
+        ],
+        "ua": [
+          "Юрський"
+        ]
+      },
+      "prize": 64000
+    },
+    {
+      "id": 53,
+      "text": {
+        "en": "Which disease is also known as the flu?",
+        "ua": "Яка хвороба також відома як грип?"
+      },
+      "options": {
+        "en": [
+          "Hepatitis",
+          "Tuberculosis",
+          "Influenza",
+          "Bronchitis"
+        ],
+        "ua": [
+          "Гепатит",
+          "Туберкульоз",
+          "Інфлюенція",
+          "Бронхіт"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Influenza"
+        ],
+        "ua": [
+          "Інфлюенція"
+        ]
+      },
+      "prize": 64000
+    },
+    {
+      "id": 54,
+      "text": {
+        "en": "What year did the Titanic sink?",
+        "ua": "У якому році затонув Титанік?"
+      },
+      "options": {
+        "en": [
+          "1912",
+          "1911",
+          "1913",
+          "1914"
+        ],
+        "ua": [
+          "1912",
+          "1911",
+          "1913",
+          "1914"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "1912"
+        ],
+        "ua": [
+          "1912"
+        ]
+      },
+      "prize": 125000
+    },
+    {
+      "id": 55,
+      "text": {
+        "en": "What is the smallest country in the world?",
+        "ua": "Яка найменша країна у світі?"
+      },
+      "options": {
+        "en": [
+          "Monaco",
+          "Nauru",
+          "Vatican City",
+          "San Marino"
+        ],
+        "ua": [
+          "Монако",
+          "Науру",
+          "Ватикан",
+          "Сан-Марино"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Vatican City"
+        ],
+        "ua": [
+          "Ватикан"
+        ]
+      },
+      "prize": 125000
+    },
+    {
+      "id": 56,
+      "text": {
+        "en": "Who is known as the father of geometry?",
+        "ua": "Хто відомий як батько геометрії?"
+      },
+      "options": {
+        "en": [
+          "Euclid",
+          "Archimedes",
+          "Pythagoras",
+          "Aristotle"
+        ],
+        "ua": [
+          "Евклід",
+          "Архімед",
+          "Піфагор",
+          "Арістотель"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Euclid"
+        ],
+        "ua": [
+          "Евклід"
+        ]
+      },
+      "prize": 125000
+    },
+    {
+      "id": 57,
+      "text": {
+        "en": "What is the largest mammal in the world?",
+        "ua": "Який найбільший ссавець у світі?"
+      },
+      "options": {
+        "en": [
+          "African Elephant",
+          "Blue Whale",
+          "Giraffe",
+          "White Rhino"
+        ],
+        "ua": [
+          "Африканський слон",
+          "Синій кит",
+          "Жирафа",
+          "Білий носоріг"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Blue Whale"
+        ],
+        "ua": [
+          "Синій кит"
+        ]
+      },
+      "prize": 125000
+    },
+    {
+      "id": 58,
+      "text": {
+        "en": "According to the Bible, how did the animals go into the Ark?",
+        "ua": "Згідно з Біблією, як тварини увійшли до ковчега?"
+      },
+      "options": {
+        "en": [
+          "One at a time",
+          "In pairs",
+          "Three at a time",
+          "Randomly"
+        ],
+        "ua": [
+          "По одному",
+          "Парами",
+          "По троє",
+          "Випадковим чином"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "In pairs"
+        ],
+        "ua": [
+          "Парами"
+        ]
+      },
+      "prize": 125000
+    },
+    {
+      "id": 59,
+      "text": {
+        "en": "Molasses is produced by the processing of which food?",
+        "ua": "Меляса виробляється шляхом переробки якої їжі?"
+      },
+      "options": {
+        "en": [
+          "Sugar",
+          "Corn",
+          "Wheat",
+          "Soybeans"
+        ],
+        "ua": [
+          "Цукру",
+          "Кукурудзи",
+          "Пшениці",
+          "Соєвих бобів"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Sugar"
+        ],
+        "ua": [
+          "Цукру"
+        ]
+      },
+      "prize": 125000
+    },
+    {
+      "id": 60,
+      "text": {
+        "en": "What is the only element on the periodic table that is not named after a person, a mythological character, a place, or a property of the element?",
+        "ua": "Який єдиний елемент у періодичній таблиці, який не названий на честь людини, міфологічного персонажа, місця або властивості елемента?"
+      },
+      "options": {
+        "en": [
+          "Hydrogen",
+          "Gallium",
+          "Americium",
+          "Krypton"
+        ],
+        "ua": [
+          "Водень",
+          "Галій",
+          "Америцій",
+          "Криптон"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Hydrogen"
+        ],
+        "ua": [
+          "Водень"
+        ]
+      },
+      "prize": 125000
+    },
+    {
+      "id": 61,
+      "text": {
+        "en": "Which organ in the human body produces insulin?",
+        "ua": "Який орган людського тіла виробляє інсулін?"
+      },
+      "options": {
+        "en": [
+          "Pancreas",
+          "Liver",
+          "Kidney",
+          "Heart"
+        ],
+        "ua": [
+          "Підшлункова залоза",
+          "Печінка",
+          "Нирки",
+          "Серце"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Pancreas"
+        ],
+        "ua": [
+          "Підшлункова залоза"
+        ]
+      },
+      "prize": 250000
+    },
+    {
+      "id": 62,
+      "text": {
+        "en": "Which is a weakness in a person's character?",
+        "ua": "Що з переліченого означає слабкість у характері людини?"
+      },
+      "options": {
+        "en": [
+          "Hector's elbow",
+          "Priam's nose",
+          "Paris's knee",
+          "Achilles' heel"
+        ],
+        "ua": [
+          "Лікоть Гектора",
+          "Ніс Пріама",
+          "Парісове коліно",
+          "Ахіллесова п'ята"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Achilles' heel"
+        ],
+        "ua": [
+          "Ахіллесова п'ята"
+        ]
+      },
+      "prize": 250000
+    },
+    {
+      "id": 63,
+      "text": {
+        "en": "How are the Prime Minister and senior ministers known collectively?",
+        "ua": "Як колективно називають Прем'єр-міністра та старших міністрів?"
+      },
+      "options": {
+        "en": [
+          "The Chest",
+          "The Wardrobe",
+          "The Dresser",
+          "The Cabinet"
+        ],
+        "ua": [
+          "Скриня",
+          "Гардероб",
+          "Комод",
+          "Кабінет"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "The Cabinet"
+        ],
+        "ua": [
+          "Кабінет"
+        ]
+      },
+      "prize": 250000
+    },
+    {
+      "id": 64,
+      "text": {
+        "en": "What is the capital city of Australia?",
+        "ua": "Яка столиця Австралії?"
+      },
+      "options": {
+        "en": [
+          "Sydney",
+          "Melbourne",
+          "Perth",
+          "Canberra"
+        ],
+        "ua": [
+          "Сідней",
+          "Мельбурн",
+          "Перт",
+          "Канберра"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Canberra"
+        ],
+        "ua": [
+          "Канберра"
+        ]
+      },
+      "prize": 250000
+    },
+    {
+      "id": 65,
+      "text": {
+        "en": "Lebanon is a country on which continent?",
+        "ua": "Ліван є країною на якому континенті?"
+      },
+      "options": {
+        "en": [
+          "Africa",
+          "Asia",
+          "South America",
+          "Europe"
+        ],
+        "ua": [
+          "Африка",
+          "Азія",
+          "Південна Америка",
+          "Європа"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Asia"
+        ],
+        "ua": [
+          "Азія"
+        ]
+      },
+      "prize": 250000
+    },
+    {
+      "id": 66,
+      "text": {
+        "en": "Who founded the Jesuits, also known as the Society of Jesus?",
+        "ua": "Хто заснував єзуїтів, також відомих як Товариство Ісуса?"
+      },
+      "options": {
+        "en": [
+          "Martin Luther",
+          "John Calvin",
+          "Ignatius de Loyola",
+          "Thomas Aquinas"
+        ],
+        "ua": [
+          "Мартін Лютер",
+          "Джон Кальвін",
+          "Ігнатій де Лойола",
+          "Тома Аквінський"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Ignatius de Loyola"
+        ],
+        "ua": [
+          "Ігнатій де Лойола"
+        ]
+      },
+      "prize": 250000
+    },
+    {
+      "id": 67,
+      "text": {
+        "en": "Which element has the highest melting point?",
+        "ua": "Який елемент має найвищу температуру плавлення?"
+      },
+      "options": {
+        "en": [
+          "Tungsten",
+          "Iron",
+          "Gold",
+          "Platinum"
+        ],
+        "ua": [
+          "Вольфрам",
+          "Залізо",
+          "Золото",
+          "Платина"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Tungsten"
+        ],
+        "ua": [
+          "Вольфрам"
+        ]
+      },
+      "prize": 500000
+    },
+    {
+      "id": 68,
+      "text": {
+        "en": "In Greek mythology, what was left in Pandora's box?",
+        "ua": "Що залишилося в скрині Пандори в грецькій міфології?"
+      },
+      "options": {
+        "en": [
+          "Faith",
+          "Hope",
+          "Charity",
+          "Justice"
+        ],
+        "ua": [
+          "Віра",
+          "Надія",
+          "Милосердя",
+          "Справедливість"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Hope"
+        ],
+        "ua": [
+          "Надія"
+        ]
+      },
+      "prize": 500000
+    },
+    {
+      "id": 69,
+      "text": {
+        "en": "Which of the following men does not have a chemical element named for him?",
+        "ua": "На честь якого з перелічених чоловіків не названо хімічний елемент?"
+      },
+      "options": {
+        "en": [
+          "Albert Einstein",
+          "Niels Bohr",
+          "Isaac Newton",
+          "Enrico Fermi"
+        ],
+        "ua": [
+          "Альберт Ейнштейн",
+          "Нільс Бор",
+          "Ісаак Ньютон",
+          "Енріко Фермі"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Isaac Newton"
+        ],
+        "ua": [
+          "Ісаак Ньютон"
+        ]
+      },
+      "prize": 500000
+    },
+    {
+      "id": 70,
+      "text": {
+        "en": "Who is credited with inventing the first mass-produced helicopter?",
+        "ua": "Кому приписують винахід першого вертольота масового виробництва?"
+      },
+      "options": {
+        "en": [
+          "Elmer Sperry",
+          "Ihor Sikorsky",
+          "Ferdinand von Zeppelin",
+          "Gottlieb Daimler"
+        ],
+        "ua": [
+          "Елмер Сперрі",
+          "Ігор Сікорський",
+          "Фердинанд фон Цепелін",
+          "Готліб Даймлер"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Ihor Sikorsky"
+        ],
+        "ua": [
+          "Ігор Сікорський"
+        ]
+      },
+      "prize": 500000
+    },
+    {
+      "id": 71,
+      "text": {
+        "en": "Which of the following is a name for Ireland?",
+        "ua": "Яка з наступних назв є назвою Ірландії?"
+      },
+      "options": {
+        "en": [
+          "Scarlet Reef",
+          "Azure Eyot",
+          "Emerald Isle",
+          "Sable Sandbank"
+        ],
+        "ua": [
+          "Скарлетовий Риф",
+          "Лазуровий Острівець",
+          "Смарагдовий Острів",
+          "Чорний Пісчаний Берег"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Emerald Isle"
+        ],
+        "ua": [
+          "Смарагдовий Острів"
+        ]
+      },
+      "prize": 500000
+    },
+    {
+      "id": 72,
+      "text": {
+        "en": "What phenomenon explains the fact that observers on Earth see one side of the Moon at all times?",
+        "ua": "Яке явище пояснює той факт, що спостерігачі на Землі завжди бачать одну сторону Місяця?"
+      },
+      "options": {
+        "en": [
+          "Synchronous rotation",
+          "Solar eclipse",
+          "Lunar eclipse",
+          "Axial precession"
+        ],
+        "ua": [
+          "Синхронне обертання",
+          "Сонячне затемнення",
+          "Місячне затемнення",
+          "Осьова прецесія"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Synchronous rotation"
+        ],
+        "ua": [
+          "Синхронне обертання"
+        ]
+      },
+      "prize": 500000
+    },
+    {
+      "id": 73,
+      "text": {
+        "en": "According to the United Nations, in what year was the world's population half of its present total?",
+        "ua": "За даними ООН, у якому році населення світу було вдвічі менше поточного?"
+      },
+      "options": {
+        "en": [
+          "1950",
+          "1960",
+          "1970",
+          "1940"
+        ],
+        "ua": [
+          "1950",
+          "1960",
+          "1970",
+          "1940"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "1960"
+        ],
+        "ua": [
+          "1960"
+        ]
+      },
+      "prize": 1000000
+    },
+    {
+      "id": 74,
+      "text": {
+        "en": "Thessaloníki is the second largest city of which European country?",
+        "ua": "Салоніки є другим за величиною містом якої європейської країни?"
+      },
+      "options": {
+        "en": [
+          "Albania",
+          "Turkey",
+          "Greece",
+          "Bulgaria"
+        ],
+        "ua": [
+          "Албанія",
+          "Туреччина",
+          "Греція",
+          "Болгарія"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Greece"
+        ],
+        "ua": [
+          "Греція"
+        ]
+      },
+      "prize": 1000000
+    },
+    {
+      "id": 75,
+      "text": {
+        "en": "Who is not a patron saint of a country of the United Kingdom?",
+        "ua": "Хто не є покровителем Сполученого Королівства?"
+      },
+      "options": {
+        "en": [
+          "St Gregory",
+          "St David",
+          "St Andrew",
+          "St George"
+        ],
+        "ua": [
+          "Святий Григорій",
+          "Святий Давид",
+          "Святий Андрій",
+          "Святий Георгій"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "St Gregory"
+        ],
+        "ua": [
+          "Святий Григорій"
+        ]
+      },
+      "prize": 1000000
+    },
+    {
+      "id": 76,
+      "text": {
+        "en": "Which of these composers was born first?",
+        "ua": "Який з цих композиторів народився першим?"
+      },
+      "options": {
+        "en": [
+          "Wolfgang Amadeus Mozart",
+          "Ludwig van Beethoven",
+          "Johann Sebastian Bach",
+          "Pyotr Ilyich Tchaikovsky"
+        ],
+        "ua": [
+          "Вольфганг Амадей Моцарт",
+          "Людвіг ван Бетховен",
+          "Йоганн Себастьян Бах",
+          "Петро Ілліч Чайковський"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Johann Sebastian Bach"
+        ],
+        "ua": [
+          "Йоганн Себастьян Бах"
+        ]
+      },
+      "prize": 1000000
+    },
+    {
+      "id": 77,
+      "text": {
+        "en": "In quantum mechanics, the Heisenberg Uncertainty Principle states that it is impossible to simultaneously determine which two properties of a particle?",
+        "ua": "У квантовій механіці принцип невизначеності Гейзенберга стверджує, що неможливо одночасно визначити які дві властивості частинки?"
+      },
+      "options": {
+        "en": [
+          "Position and velocity",
+          "Mass and charge",
+          "Energy and momentum",
+          "Energy and color charge"
+        ],
+        "ua": [
+          "Положення та швидкість",
+          "Маса та заряд",
+          "Енергія та імпульс",
+          "Енергія та кольоровий заряд"
+        ]
+      },
+      "correctAnswers": {
+        "en": [
+          "Position and velocity"
+        ],
+        "ua": [
+          "Положення та швидкість"
+        ]
+      },
       "prize": 1000000
     }
   ]

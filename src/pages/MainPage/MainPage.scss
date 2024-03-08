@@ -2,6 +2,7 @@
 @import '../../utils/mixins.scss';
 
 .main-page {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
@@ -9,7 +10,7 @@
   gap: 32px;
   padding: 80px;
   min-height: 100vh;
-  background-color: $color-white;
+  background-color: $primary-white;
 
   @include onLargeDesktop {
     padding: 120px;
@@ -29,10 +30,34 @@
   }
 
   &--start {
-    background: linear-gradient(to bottom right, $color-white 50%, rgba($medium-dark-blue, 5%) 50%);
+    background: linear-gradient(to bottom right, $primary-white 50%, rgba($primary-hover, 5%) 50%);
 
     @include onPhone {
-      background: linear-gradient(to bottom right, $color-white 50%, #FFF3EB 50%);
+      background: linear-gradient(to bottom right, $primary-white 50%, #FFF3EB 50%);
+    }
+  }
+
+  &__langs {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    gap: 16px;
+  }
+
+  &__lang {
+    font-size: 20px;
+
+    color: $primary-btn;
+    background-color: transparent;
+
+    &--selected {
+      color: $primary-btn-active;
+      font-weight: 600;
+    }
+
+    &:hover {
+      color: $primary-text;
     }
   }
 
@@ -79,7 +104,7 @@
     font-size: 56px;
     font-weight: 600;
     line-height: 65px;
-    color: $color-black;
+    color: $primary-black;
 
     @include onLargeDesktop {
       font-size: 84px;
@@ -128,8 +153,8 @@
 
     font-size: 20px;
     font-weight: 600;
-    color: $color-white;
-    background-color: $medium-blue;
+    color: $primary-white;
+    background-color: $primary-btn;
 
     @include onLargeDesktop {
       width: 444px;
@@ -151,11 +176,11 @@
     }
 
     &:hover {
-      background-color: $color-blue;
+      background-color: $primary-text;
     }
 
     &:active {
-      background-color: $dark-blue;
+      background-color: $primary-btn-active;
     }
   }
 }

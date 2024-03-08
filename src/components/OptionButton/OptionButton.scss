@@ -5,7 +5,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding-inline: 31px;
+  padding-inline: 8.31%;
   aspect-ratio: 5.18 / 1;
 
   background-image: url("../../../public/img/desktop/option-basic.png");
@@ -25,7 +25,7 @@
     width: 17px;
     height: 1px;
     transform: translateY(-50%);
-    background-color: $medium-grey;
+    background-color: $primary-inactive;
   }
 
   &::before {
@@ -44,7 +44,7 @@
     }
 
     &::before, &::after {
-      background-color: $bright-green;
+      background-color: $text-correct;
     }
   }
 
@@ -56,7 +56,7 @@
     }
 
     &::before, &::after {
-      background-color: $bright-red;
+      background-color: $text-wrong;
     }
   }
 
@@ -85,16 +85,22 @@
 
     &--option {
       font-weight: 600;
-      color: $medium-dark-blue;
+      color: $primary-hover;
     }
 
     &--answer {
       margin-left: 8px;
       font-weight: 400;
-      color: $color-blue;
+      color: $primary-text;
 
       @include onLargeDesktop {
         margin-left: 20px;
+      }
+
+      &--long {
+        @include onTablet {
+          font-size: 12px;
+        }
       }
     }
   }
@@ -103,7 +109,7 @@
     background-image: url("../../../public/img/desktop/option-hover.png");
 
     &::before, &::after {
-      background-color: $medium-blue;
+      background-color: $primary-btn;
     }
   }
 
@@ -115,7 +121,7 @@
     }
 
     &::before, &::after {
-      background-color: $bright-orange;
+      background-color: $text-selected;
     }
   }
 }

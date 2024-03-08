@@ -28,7 +28,7 @@
     width: 28.75%;
     height: 1px;
     transform: translateY(-50%);
-    background-color: $medium-grey;
+    background-color: $primary-inactive;
   }
   
   &::before {
@@ -47,7 +47,7 @@
     }
 
     &::before, &::after {
-      background-color: $color-blue;
+      background-color: $primary-text;
     }
   }
 
@@ -55,7 +55,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
-    color: $color-black;
+    color: $primary-black;
 
     @include onLargeDesktop {
       font-size: 32px;
@@ -73,15 +73,15 @@
     }
 
     &--current {
-      color: $light-red;
+      color: $secondary-btn-text;
 
       @include onPhone {
-        color: $medium-blue;
+        color: $primary-btn;
       }
     }
 
     &--finished {
-      color: $medium-grey;
+      color: $primary-inactive;
     }
   }
 }

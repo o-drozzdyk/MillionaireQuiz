@@ -39,7 +39,7 @@ export const gameSlice = createSlice({
   name: 'game',
   initialState,
   reducers: {
-    changeStage: (state, action: PayloadAction<Stage>) => {
+    setStage: (state, action: PayloadAction<Stage>) => {
       state.stage = action.payload;
 
       if (action.payload === 'start') {
@@ -64,13 +64,13 @@ export const gameSlice = createSlice({
       state.selectedAnswer = option;
 
       if (isCorrect) {
-        state.totalPrize += state.currentPrize || 0;
+        state.totalPrize = state.currentPrize || 0;
       }
     },
   },
 });
 
 export const {
-  changeStage, getNextQuestion, checkAnswer,
+  setStage, getNextQuestion, checkAnswer,
 } = gameSlice.actions;
 export default gameSlice.reducer;

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './GamePage.scss';
 import { useAppSelector } from '../../store/hooks';
 import OptionButton from '../../components/OptionButton/OptionButton';
 import Menu from '../../components/Menu/Menu';
+import { shuffleArray } from '../../utils/helpers';
 
 const NUMBERING: { [key: number]: string } = {
   0: 'A',
@@ -12,7 +13,13 @@ const NUMBERING: { [key: number]: string } = {
 };
 
 function GamePage() {
+  const [options, setOptions] = useState<string[]>([]);
   const { currentQuestion } = useAppSelector((state) => state.game);
+  const { lang } = useAppSelector((state) => state.language);
+
+  useEffect(() => {
+    setOptions(shuffleArray(currentQuestion?.options[lang] || []));
+  }, [currentQuestion]);
 
   return (
     <div className="page">
@@ -20,11 +27,11 @@ function GamePage() {
         <a href="#menu" className="page__menu-link"> </a>
 
         <p className="page__question">
-          {currentQuestion?.text}
+          {currentQuestion?.text[lang]}
         </p>
 
         <div className="page__options">
-          {currentQuestion?.options.map((option, index) => (
+          {options.map((option, index) => (
             <OptionButton
               option={option}
               optionNumber={NUMBERING[index]}
