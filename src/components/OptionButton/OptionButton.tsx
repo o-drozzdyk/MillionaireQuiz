@@ -29,7 +29,7 @@ function OptionButton({ option, optionNumber }: Props) {
       } else {
         dispatch(changeStage('end'));
       }
-    }, 3000);
+    }, 1500);
   };
 
   return (
