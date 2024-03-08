@@ -40,6 +40,7 @@ function OptionButton({ option, optionNumber }: Props) {
         'button--wrong': !isAnswerCorrect && selectedAnswer === option,
         'button--disabled': selectedAnswer,
       })}
+      disabled={selectedAnswer !== null}
       onClick={handleOptionClick}
     >
       <p className="button__text button__text--option">{optionNumber}</p>
