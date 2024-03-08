@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MillionaireQuiz/static/css/main.c14bdc47.css",
-    "main.js": "/MillionaireQuiz/static/js/main.5562976f.js",
+    "main.css": "/MillionaireQuiz/static/css/main.bb3f485d.css",
+    "main.js": "/MillionaireQuiz/static/js/main.5b77ff8e.js",
     "index.html": "/MillionaireQuiz/index.html",
     "static/media/close.svg": "/MillionaireQuiz/static/media/close.09d59f74245cb6663a15.svg",
     "static/media/menu.svg": "/MillionaireQuiz/static/media/menu.2e4db3a986ee50d80ed0.svg",
-    "main.c14bdc47.css.map": "/MillionaireQuiz/static/css/main.c14bdc47.css.map",
-    "main.5562976f.js.map": "/MillionaireQuiz/static/js/main.5562976f.js.map"
+    "main.bb3f485d.css.map": "/MillionaireQuiz/static/css/main.bb3f485d.css.map",
+    "main.5b77ff8e.js.map": "/MillionaireQuiz/static/js/main.5b77ff8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c14bdc47.css",
-    "static/js/main.5562976f.js"
+    "static/css/main.bb3f485d.css",
+    "static/js/main.5b77ff8e.js"
   ]
 }
