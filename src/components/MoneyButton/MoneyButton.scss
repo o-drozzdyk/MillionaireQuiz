@@ -2,40 +2,41 @@
 @import '../../utils/colors.scss';
 
 .money-button {
+  box-sizing: border-box;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 240px;
-  height: 40px;
+  width: 63.83%;
+  aspect-ratio: 5.9 / 1;
 
   background-image: url("../../../public/img/desktop/money-basic.png");
+  background-repeat: no-repeat;
   background-color: transparent;
   background-size: contain;
   cursor: initial;
 
   @include onPhone {
-    height: 32px;
+    aspect-ratio: 7.4 / 1;
     background-image: url("../../../public/img/mobile/money-basic.png");
-    background-repeat: no-repeat;
   }
 
   &::before, &::after {
     content: "";
     position: absolute;
     top: 50%;
-    width: 69px;
+    width: 28.75%;
     height: 1px;
     transform: translateY(-50%);
     background-color: $medium-grey;
   }
   
   &::before {
-    left: -69px;
+    left: -28.75%;
   }
 
   &::after {
-    right: -69px;
+    right: -28.75%;
   }
   
   &--current {
@@ -55,6 +56,16 @@
     font-weight: 400;
     line-height: 23px;
     color: $color-black;
+
+    @include onLargeDesktop {
+      font-size: 32px;
+      line-height: 37px;
+    }
+
+    @include onTablet {
+      font-size: 14px;
+      line-height: 16px;
+    }
 
     @include onPhone {
       font-size: 14px;

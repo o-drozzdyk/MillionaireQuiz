@@ -21,7 +21,8 @@ function MainPage() {
     >
       <div className="main-page__hand">
         <img
-          src="img/hand.png"
+          src="https://o-drozzdyk.github.io/MillionaireQuiz/img/hand.png"
+          // src="img/hand.png"
           alt="Thumbs Up"
           className="main-page__image"
         />

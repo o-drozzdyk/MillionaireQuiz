@@ -12,20 +12,41 @@
     justify-content: space-between;
     padding-block: 133px 122px;
     padding-left: 80px;
-    width: 100%;
+    width: 73.9%;
     background-color: $light-grey;
+
+    @include onLargeDesktop {
+      padding-block: 200px 184px;
+      padding-left: 120px;
+    }
+
+    @include onTablet {
+      padding-block: 88px 80px;
+      padding-left: 54px;
+    }
 
     @include onPhone {
       padding: 16px 16px 24px;
+      width: 100%;
     }
   }
 
   &__question {
-    width: 624px;
+    width: 72%;
     text-align: left;
     font-size: 32px;
     font-weight: 600;
     line-height: 37px;
+
+    @include onLargeDesktop {
+      font-size: 48px;
+      line-height: 56px;
+    }
+
+    @include onTablet {
+      font-size: 24px;
+      line-height: 28px;
+    }
 
     @include onPhone {
       width: 100%;
@@ -37,8 +58,9 @@
 
   &__options {
     display: grid;
-    grid-template-columns: repeat(2, 406px);
+    grid-template-columns: repeat(2, 42%);
     row-gap: 32px;
+    column-gap: 34px;
     margin-left: 17px;
 
     @include onPhone {
@@ -63,8 +85,9 @@
 
   &__menu-container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 376px;
+    width: 26.1%;
 
     @include onPhone {
       display: none;

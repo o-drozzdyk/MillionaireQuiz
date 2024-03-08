@@ -2,14 +2,27 @@
 @import '../../utils/mixins.scss';
 
 .main-page {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 32px;
+  padding: 80px;
   min-height: 100vh;
   background-color: $color-white;
 
+  @include onLargeDesktop {
+    padding: 120px;
+    gap: 38px;
+  }
+
+  @include onTablet {
+    gap: 24px;
+    padding: 48px;
+  }
+
   @include onPhone {
+    display: flex;
     flex-direction: column;
     gap: 0;
     padding: 80px 16px 48px;
@@ -24,27 +37,28 @@
   }
 
   &__hand {
-    padding: 5px 86px;
-    width: 624px;
-    height: 367px;
-
-    @include onPhone {
-      padding: 18px 45px;
-      width: 100%;
-      height: auto;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__image {
-    width: 100%;
-    height: 100%;
+    width: 72.3%;
+    aspect-ratio: 1.27 / 1;
   }
 
   &__content {
     display: flex;
     flex-direction: column;
     gap: 64px;
-    width: 624px;
+
+    @include onLargeDesktop {
+      gap: 96px;
+    }
+
+    @include onTablet {
+      gap: 44px;
+    }
 
     @include onPhone {
       flex-grow: 1;
@@ -67,6 +81,16 @@
     line-height: 65px;
     color: $color-black;
 
+    @include onLargeDesktop {
+      font-size: 84px;
+      line-height: 97px;
+    }
+
+    @include onTablet {
+      font-size: 48px;
+      line-height: 55px;
+    }
+
     @include onPhone {
       text-align: center;
       font-size: 32px;
@@ -78,6 +102,16 @@
       font-size: 32px;
       line-height: 37px;
       margin-bottom: 8px;
+
+      @include onLargeDesktop {
+        font-size: 48px;
+        line-height: 56px;
+      }
+
+      @include onTablet {
+        font-size: 28px;
+        line-height: 32px;
+      }
 
       @include onPhone {
         font-size: 18px;
@@ -96,6 +130,18 @@
     font-weight: 600;
     color: $color-white;
     background-color: $medium-blue;
+
+    @include onLargeDesktop {
+      width: 444px;
+      height: 96px;
+      font-size: 30px;
+    }
+
+    @include onTablet {
+      width: 198px;
+      height: 44px;
+      font-size: 14px;
+    }
 
     @include onPhone {
       width: 100%;
