@@ -12,6 +12,7 @@
   background-image: url("../../../public/img/desktop/money-basic.png");
   background-color: transparent;
   background-size: contain;
+  cursor: initial;
 
   @include onPhone {
     height: 32px;

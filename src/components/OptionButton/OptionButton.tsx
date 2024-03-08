@@ -38,6 +38,7 @@ function OptionButton({ option, optionNumber }: Props) {
       className={cn('button', {
         'button--correct': isAnswerCorrect && selectedAnswer === option,
         'button--wrong': !isAnswerCorrect && selectedAnswer === option,
+        'button--disabled': selectedAnswer,
       })}
       onClick={handleOptionClick}
     >

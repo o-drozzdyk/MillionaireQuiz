@@ -61,6 +61,10 @@
     }
   }
 
+  &--disabled {
+    cursor: initial;
+  }
+
   &__text {
     font-size: 20px;
     line-height: 23px;
@@ -82,7 +86,7 @@
     }
   }
 
-  &:hover {
+  &:hover:not(.button--disabled) {
     background-image: url("../../../public/img/desktop/option-hover.png");
 
     &::before, &::after {
