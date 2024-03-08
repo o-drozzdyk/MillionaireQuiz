@@ -1,0 +1,104 @@
+@import '../../utils/mixins.scss';
+@import '../../utils/colors.scss';
+
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-inline: 31px;
+  width: 373px;
+  height: 72px;
+
+  background-image: url("../../../public/img/desktop/option-basic.png");
+  background-color: transparent;
+  background-size: cover;
+
+  @include onPhone {
+    width: 288px;
+    height: 56px;
+    background-image: url("../../../public/img/mobile/option-basic.png");
+  }
+
+  &::before, &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 17px;
+    height: 1px;
+    transform: translateY(-50%);
+    background-color: $medium-grey;
+  }
+
+  &::before {
+    left: -17px;
+  }
+
+  &::after {
+    right: -17px;
+  }
+
+  &--correct {
+    background-image: url("../../../public/img/desktop/option-correct.png");
+
+    @include onPhone {
+      background-image: url("../../../public/img/mobile/option-correct.png");
+    }
+
+    &::before, &::after {
+      background-color: $bright-green;
+    }
+  }
+
+  &--wrong {
+    background-image: url("../../../public/img/desktop/option-wrong.png");
+
+    @include onPhone {
+      background-image: url("../../../public/img/mobile/option-wrong.png");
+    }
+
+    &::before, &::after {
+      background-color: $bright-red;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 23px;
+
+    @include onPhone {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &--option {
+      font-weight: 600;
+      color: $medium-dark-blue;
+    }
+
+    &--answer {
+      margin-left: 8px;
+      font-weight: 400;
+      color: $color-blue;
+    }
+  }
+
+  &:hover {
+    background-image: url("../../../public/img/desktop/option-hover.png");
+
+    &::before, &::after {
+      background-color: $medium-blue;
+    }
+  }
+
+  &:active {
+    background-image: url("../../../public/img/desktop/option-selected.png");
+
+    @include onPhone {
+      background-image: url("../../../public/img/mobile/option-selected.png");
+    }
+
+    &::before, &::after {
+      background-color: $bright-orange;
+    }
+  }
+}

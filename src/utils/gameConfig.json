@@ -1,0 +1,361 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "correctAnswers": ["Paris"],
+      "prize": 500
+    },
+    {
+      "id": 2,
+      "text": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+      "correctAnswers": ["Carbon Dioxide"],
+      "prize": 500
+    },
+    {
+      "id": 3,
+      "text": "Who wrote 'Hamlet'?",
+      "options": ["William Shakespeare", "Leo Tolstoy", "Mark Twain", "Charles Dickens"],
+      "correctAnswers": ["William Shakespeare"],
+      "prize": 500
+    },
+    {
+      "id": 4,
+      "text": "Which element has the chemical symbol 'O'?",
+      "options": ["Gold", "Oxygen", "Silver", "Osmium"],
+      "correctAnswers": ["Oxygen"],
+      "prize": 500
+    },
+    {
+      "id": 5,
+      "text": "What is the largest planet in our solar system?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "correctAnswers": ["Jupiter"],
+      "prize": 1000
+    },
+    {
+      "id": 6,
+      "text": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Quartz"],
+      "correctAnswers": ["Diamond"],
+      "prize": 1000
+    },
+    {
+      "id": 7,
+      "text": "Which ocean is the largest?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "correctAnswers": ["Pacific Ocean"],
+      "prize": 1000
+    },
+    {
+      "id": 8,
+      "text": "Who is the author of the Harry Potter series?",
+      "options": ["J.R.R. Tolkien", "J.K. Rowling", "Stephen King", "C.S. Lewis"],
+      "correctAnswers": ["J.K. Rowling"],
+      "prize": 1000
+    },
+    {
+      "id": 9,
+      "text": "How many musicians are there in a quartet?",
+      "options": ["2", "4", "6", "8"],
+      "correctAnswers": ["4"],
+      "prize": 1000
+    },
+    {
+      "id": 10,
+      "text": "Which of these is not a chess piece?",
+      "options": ["Queen", "King", "Viscount", "Knight"],
+      "correctAnswers": ["Viscount"],
+      "prize": 2000
+    },
+    {
+      "id": 11,
+      "text": "Which of these countries is NOT a part of the United Kingdom?",
+      "options": ["Scotland", "Wales", "Ireland", "Northern Ireland"],
+      "correctAnswers": ["Ireland"],
+      "prize": 2000
+    },
+    {
+      "id": 12,
+      "text": "How many continents are there on Earth?",
+      "options": ["Six", "Seven", "Eight", "Five"],
+      "correctAnswers": ["Seven"],
+      "prize": 2000
+    },
+    {
+      "id": 13,
+      "text": "Who wrote 'To Be or Not to Be'?",
+      "options": ["William Shakespeare", "Charles Dickens", "Leo Tolstoy", "Mark Twain"],
+      "correctAnswers": ["William Shakespeare"],
+      "prize": 2000
+    },
+    {
+      "id": 14,
+      "text": "Who painted the Mona Lisa?",
+      "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+      "correctAnswers": ["Leonardo da Vinci"],
+      "prize": 4000
+    },
+    {
+      "id": 15,
+      "text": "Which of the following is the design or arrangement of staged dance?",
+      "options": ["Photography", "Typography", "Choreography", "Bibliography"],
+      "correctAnswers": ["Choreography"],
+      "prize": 4000
+    },
+    {
+      "id": 16,
+      "text": "What is the capital city of Japan?",
+      "options": ["Tokyo", "Kyoto", "Osaka", "Hiroshima"],
+      "correctAnswers": ["Tokyo"],
+      "prize": 4000
+    },
+    {
+      "id": 17,
+      "text": "What is the name of the longest river in the world?",
+      "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+      "correctAnswers": ["Amazon"],
+      "prize": 8000
+    },
+    {
+      "id": 18,
+      "text": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "Japan", "South Korea", "Thailand"],
+      "correctAnswers": ["Japan"],
+      "prize": 8000
+    },
+    {
+      "id": 19,
+      "text": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Jupiter", "Saturn", "Venus"],
+      "correctAnswers": ["Mars"],
+      "prize": 8000
+    },
+    {
+      "id": 20,
+      "text": "In what year did World War II end?",
+      "options": ["1945", "1944", "1946", "1947"],
+      "correctAnswers": ["1945"],
+      "prize": 8000
+    },
+    {
+      "id": 21,
+      "text": "Where traditionally do birds fly in winter?",
+      "options": ["North", "East", "South", "West"],
+      "correctAnswers": ["South"],
+      "prize": 8000
+    },
+    {
+      "id": 22,
+      "text": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Ge", "Ga"],
+      "correctAnswers": ["Au"],
+      "prize": 16000
+    },
+    {
+      "id": 23,
+      "text": "What does HTML stand for?",
+      "options": ["Hyperlinks and Text Markup Language", "Hyper Text Markup Language", "Home Tool Markup Language", "Hyper Tool Markup Language"],
+      "correctAnswers": ["Hyper Text Markup Language"],
+      "prize": 16000
+    },
+    {
+      "id": 24,
+      "text": "Which of the following is an alkaloid drug found in tea leaves and coffee beans?",
+      "options": ["Bromine", "Iodine", "Ethane", "Caffeine"],
+      "correctAnswers": ["Caffeine"],
+      "prize": 16000
+    },
+    {
+      "id": 25,
+      "text": "What is the currency of Japan?",
+      "options": ["Yen", "Won", "Yuan", "Ringgit"],
+      "correctAnswers": ["Yen"],
+      "prize": 16000
+    },
+    {
+      "id": 26,
+      "text": "Which of the following is a famous landmark in Paris?",
+      "options": ["Piffel Heights", "Waffel Block", "Eiffel Tower", "Drivel Rise"],
+      "correctAnswers": ["Eiffel Tower"],
+      "prize": 16000
+    },
+    {
+      "id": 27,
+      "text": "Which of these elements is needed to make nuclear energy and weapons?",
+      "options": ["Plutonium", "Iron", "Lead", "Mercury"],
+      "correctAnswers": ["Plutonium"],
+      "prize": 32000
+    },
+    {
+      "id": 28,
+      "text": "In Egyptian mythology, what had the head of a man and the body of a lion?",
+      "options": ["Lynx", "Sphinx", "Stinx", "Minx"],
+      "correctAnswers": ["Sphinx"],
+      "prize": 32000
+    },
+    {
+      "id": 29,
+      "text": "In Egyptian mythology, what had the head of a man and the body of a lion?Which of the following is not a type of pasta?",
+      "options": ["Tagliatelli", "Vermicelli", "Tandoori", "Cannelloni"],
+      "correctAnswers": ["Tandoori"],
+      "prize": 32000
+    },
+    {
+      "id": 30,
+      "text": "Which of these is a home-made petrol bomb?",
+      "options": ["Harvey Wallbanger", "Molotov Cocktail", "Pina Colada", "Tom Collins"],
+      "correctAnswers": ["Molotov Cocktail"],
+      "prize": 32000
+    },
+    {
+      "id": 31,
+      "text": "In computer science, what does 'CPU' stand for?",
+      "options": ["Central Processing Unit", "Computer Personal Unit", "Central Personal Unit", "Control Processing Unit"],
+      "correctAnswers": ["Central Processing Unit"],
+      "prize": 64000
+    },
+    {
+      "id": 32,
+      "text": "In which country did the Olympic Games originate?",
+      "options": ["Greece", "Italy", "France", "England"],
+      "correctAnswers": ["Greece"],
+      "prize": 64000
+    },
+    {
+      "id": 33,
+      "text": "Which of these is a national daily newspaper in the UK?",
+      "options": ["The Sun", "The Moon", "The Meteor", "The Comet"],
+      "correctAnswers": ["The Sun"],
+      "prize": 64000
+    },
+    {
+      "id": 34,
+      "text": "Which of the following is a geological period?",
+      "options": ["Boracic", "Frantic", "Acidic", "Jurassic"],
+      "correctAnswers": ["Jurassic"],
+      "prize": 64000
+    },
+    {
+      "id": 35,
+      "text": "What year did the Titanic sink?",
+      "options": ["1912", "1911", "1913", "1914"],
+      "correctAnswers": ["1912"],
+      "prize": 125000
+    },
+    {
+      "id": 36,
+      "text": "What is the smallest country in the world?",
+      "options": ["Monaco", "Nauru", "Vatican City", "San Marino"],
+      "correctAnswers": ["Vatican City"],
+      "prize": 125000
+    },
+    {
+      "id": 37,
+      "text": "Who is known as the father of geometry?",
+      "options": ["Euclid", "Archimedes", "Pythagoras", "Aristotle"],
+      "correctAnswers": ["Euclid"],
+      "prize": 125000
+    },
+    {
+      "id": 38,
+      "text": "What is the largest mammal in the world?",
+      "options": ["African Elephant", "Blue Whale", "Giraffe", "White Rhino"],
+      "correctAnswers": ["Blue Whale"],
+      "prize": 125000
+    },
+    {
+      "id": 39,
+      "text": "Which organ in the human body produces insulin?",
+      "options": ["Pancreas", "Liver", "Kidney", "Heart"],
+      "correctAnswers": ["Pancreas"],
+      "prize": 250000
+    },
+    {
+      "id": 40,
+      "text": "Which is a weakness in a person's character?",
+      "options": ["Hector's elbow", "Priam's nose", "Paris's knee", "Achilles' heel"],
+      "correctAnswers": ["Achilles' heel"],
+      "prize": 250000
+    },
+    {
+      "id": 41,
+      "text": "How are the Prime Minister and senior ministers known collectively?",
+      "options": ["The Chest", "The Wardrobe", "The Dresser", "The Cabinet"],
+      "correctAnswers": ["The Cabinet"],
+      "prize": 250000
+    },
+    {
+      "id": 42,
+      "text": "What is the capital city of Australia?",
+      "options": ["Sydney", "Melbourne", "Perth", "Canberra"],
+      "correctAnswers": ["Canberra"],
+      "prize": 250000
+    },
+    {
+      "id": 43,
+      "text": "Lebanon is a country on which continent?",
+      "options": ["Africa", "Asia", "South America", "Europe"],
+      "correctAnswers": ["Asia"],
+      "prize": 250000
+    },
+    {
+      "id": 44,
+      "text": "Which element has the highest melting point?",
+      "options": ["Tungsten", "Iron", "Gold", "Platinum"],
+      "correctAnswers": ["Tungsten"],
+      "prize": 500000
+    },
+    {
+      "id": 45,
+      "text": "In Greek mythology, what was left in Pandora's box?",
+      "options": ["Faith", "Hope", "Charity", "Justice"],
+      "correctAnswers": ["Hope"],
+      "prize": 500000
+    },
+    {
+      "id": 46,
+      "text": "Which of the following men does not have a chemical element named for him?",
+      "options": ["Albert Einstein", "Niels Bohr", "Isaac Newton", "Enrico Fermi"],
+      "correctAnswers": ["Isaac Newton"],
+      "prize": 500000
+    },
+    {
+      "id": 47,
+      "text": "Who is credited with inventing the first mass-produced helicopter?",
+      "options": ["Elmer Sperry", "Ihor Sikorsky", "Ferdinand von Zeppelin", "Gottlieb Daimler"],
+      "correctAnswers": ["Ihor Sikorsky"],
+      "prize": 500000
+    },
+    {
+      "id": 48,
+      "text": "Which of the following is a name for Ireland?",
+      "options": ["Scarlet Reef", "Azure Eyot", "Emerald Isle", "Sable Sandbank"],
+      "correctAnswers": ["Emerald Isle"],
+      "prize": 500000
+    },
+    {
+      "id": 49,
+      "text": "According to the United Nations, in what year was the world's population half of its present total?",
+      "options": ["1950", "1960", "1970", "1940"],
+      "correctAnswers": ["1960"],
+      "prize": 1000000
+    },
+    {
+      "id": 50,
+      "text": "Thessaloníki is the second largest city of which European country?",
+      "options": ["Albania", "Turkey", "Greece", "Bulgaria"],
+      "correctAnswers": ["Greece"],
+      "prize": 1000000
+    },
+    {
+      "id": 51,
+      "text": "Who is not a patron saint of a country of the United Kingdom?",
+      "options": ["St Gregory", "St David", "St Andrew", "St George"],
+      "correctAnswers": ["St Gregory"],
+      "prize": 1000000
+    }
+  ]
+}

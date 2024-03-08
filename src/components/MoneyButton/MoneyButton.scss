@@ -1,0 +1,75 @@
+@import '../../utils/mixins.scss';
+@import '../../utils/colors.scss';
+
+.money-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 40px;
+
+  background-image: url("../../../public/img/desktop/money-basic.png");
+  background-color: transparent;
+  background-size: contain;
+
+  @include onPhone {
+    height: 32px;
+    background-image: url("../../../public/img/mobile/money-basic.png");
+    background-repeat: no-repeat;
+  }
+
+  &::before, &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 69px;
+    height: 1px;
+    transform: translateY(-50%);
+    background-color: $medium-grey;
+  }
+  
+  &::before {
+    left: -69px;
+  }
+
+  &::after {
+    right: -69px;
+  }
+  
+  &--current {
+    background-image: url("../../../public/img/desktop/money-current.png");
+
+    @include onPhone {
+      background-image: url("../../../public/img/mobile/money-current.png");
+    }
+
+    &::before, &::after {
+      background-color: $color-blue;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: $color-black;
+
+    @include onPhone {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &--current {
+      color: $light-red;
+
+      @include onPhone {
+        color: $medium-blue;
+      }
+    }
+
+    &--finished {
+      color: $medium-grey;
+    }
+  }
+}

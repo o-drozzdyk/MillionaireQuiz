@@ -1,0 +1,100 @@
+@import "../../utils/mixins.scss";
+@import "../../utils/colors.scss";
+
+.page {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-block: 133px 122px;
+    padding-left: 80px;
+    width: 100%;
+    background-color: $light-grey;
+
+    @include onPhone {
+      padding: 16px 16px 24px;
+    }
+  }
+
+  &__question {
+    width: 624px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;
+
+    @include onPhone {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+
+  &__options {
+    display: grid;
+    grid-template-columns: repeat(2, 406px);
+    row-gap: 32px;
+    margin-left: 17px;
+
+    @include onPhone {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  }
+
+  &__menu-link {
+    display: none;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../../public/img/menu.svg");
+
+    @include onPhone {
+      display: flex;
+      align-self: end;
+    }
+  }
+
+  &__menu-container {
+    display: flex;
+    align-items: center;
+    width: 376px;
+
+    @include onPhone {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 16px 16px 32px;
+      width: 100%;
+      height: 100%;
+      background-color: $light-grey;
+
+      &:target {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  &__close-icon {
+    display: none;
+    align-self: flex-end;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../../public/img/close.svg");
+    background-size: cover;
+
+    @include onPhone {
+      display: block;
+    }
+  }
+}

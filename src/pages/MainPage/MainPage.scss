@@ -1,0 +1,115 @@
+@import '../../utils/colors.scss';
+@import '../../utils/mixins.scss';
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  min-height: 100vh;
+  background-color: $color-white;
+
+  @include onPhone {
+    flex-direction: column;
+    gap: 0;
+    padding: 80px 16px 48px;
+  }
+
+  &--start {
+    background: linear-gradient(to bottom right, $color-white 50%, rgba($medium-dark-blue, 5%) 50%);
+
+    @include onPhone {
+      background: linear-gradient(to bottom right, $color-white 50%, #FFF3EB 50%);
+    }
+  }
+
+  &__hand {
+    padding: 5px 86px;
+    width: 624px;
+    height: 367px;
+
+    @include onPhone {
+      padding: 18px 45px;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 624px;
+
+    @include onPhone {
+      flex-grow: 1;
+      justify-content: space-between;
+      margin-top: 24px;
+      width: auto;
+    }
+
+    &--finish {
+      @include onPhone {
+        margin-top: 32px;
+      }
+    }
+  }
+
+  &__text {
+    text-align: left;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 65px;
+    color: $color-black;
+
+    @include onPhone {
+      text-align: center;
+      font-size: 32px;
+      line-height: 37px;
+    }
+
+    &--top {
+      opacity: 50%;
+      font-size: 32px;
+      line-height: 37px;
+      margin-bottom: 8px;
+
+      @include onPhone {
+        font-size: 18px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  &__button {
+    width: 296px;
+    height: 64px;
+    border-radius: 12px;
+    border-color: transparent;
+
+    font-size: 20px;
+    font-weight: 600;
+    color: $color-white;
+    background-color: $medium-blue;
+
+    @include onPhone {
+      width: 100%;
+      height: 48px;
+
+      font-size: 14px;
+    }
+
+    &:hover {
+      background-color: $color-blue;
+    }
+
+    &:active {
+      background-color: $dark-blue;
+    }
+  }
+}

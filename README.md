@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# MillionaireQuiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **MillionaireQuiz** - your path to virtual riches begins here! Dive into a world of challenging questions and test your knowledge across various categories. Can you make it to the top and claim the virtual millionaire title?
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+Check out the live demo here: [MillionaireQuiz](https://o-drozzdyk.github.io/MillionaireQuiz/).
 
-### `npm start`
+## Game Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+MillionaireQuiz is a trivia game that consists of 12 random questions of varying difficulty. At each stage, if the user selects the correct answer, their reward increases, and they advance to the next level. However, if the answer is incorrect, the game ends, and the user is presented with their final score. It's a test of wits, knowledge, and risk management. How far can you go?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+This project was built using:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **JavaScript** - For game logic and dynamic content manipulation.
+- **TypeScript** - For adding strong typing to our JavaScript code, enhancing its reliability and maintainability.
+- **SCSS** - For styling, allowing more complex and maintainable CSS with features like variables, nesting, and mixins.
+- **React** - A JavaScript library for building user interfaces, making the game interactive and responsive.
+- **Redux** - For state management, ensuring a predictable state across the game.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **12 Levels of Difficulty**: Each question is a step up in difficulty, challenging you to push your limits.
+- **Randomized Questions**: Every game is different, with questions selected at random.
+- **Progressive Difficulty**: Questions range from relatively easy to incredibly challenging, testing your knowledge at every step.
+- **Instant Feedback**: Find out immediately if you've selected the right answer and watch as your virtual earnings grow with each success.
+- **Responsive Design**: Play the game on any device, thanks to a responsive design that adapts to your screen size.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Play
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Visit the [MillionaireQuiz](https://o-drozzdyk.github.io/MillionaireQuiz/) demo link.
+2. Click 'Start Game' to begin.
+3. Select your answer from the four options provided for each question.
+4. Wait to see if your answer was correct and go to the next question.
+5. Continue answering correctly to advance through the levels.
+6. The game ends when you answer incorrectly or complete all 12 questions. Your final score will be displayed.
 
-### `npm run eject`
+## Contribution
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Interested in contributing to MillionaireQuiz? We welcome contributions in the form of bug reports, feature requests, or pull requests. Please feel free to contribute and help make MillionaireQuiz even better!
