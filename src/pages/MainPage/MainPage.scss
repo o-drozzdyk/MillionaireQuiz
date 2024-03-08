@@ -47,9 +47,16 @@
 
   &__lang {
     font-size: 20px;
-
     color: $primary-btn;
     background-color: transparent;
+
+    @include onLargeDesktop {
+      font-size: 32px;
+    }
+
+    @include onPhone {
+      font-size: 14px;
+    }
 
     &--selected {
       color: $primary-btn-active;
