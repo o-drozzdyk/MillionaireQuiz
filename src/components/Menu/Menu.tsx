@@ -7,7 +7,7 @@ function Menu() {
   const { prizes } = useAppSelector((state) => state.game);
 
   return (
-    <aside id="menu" className="menu">
+    <aside className="menu">
       {prizes.map((prize) => <MoneyButton prize={prize} key={prize} />)}
     </aside>
   );

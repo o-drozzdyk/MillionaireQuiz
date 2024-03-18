@@ -1,5 +1,5 @@
-@import '../../utils/mixins.scss';
-@import '../../utils/colors.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/colors.scss';
 
 .money-button {
   box-sizing: border-box;
@@ -10,7 +10,7 @@
   width: 63.83%;
   aspect-ratio: 5.9 / 1;
 
-  background-image: url("../../../public/img/desktop/money-basic.png");
+  background-image: url("../../styles/img/desktop/money-basic.png");
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: contain;
@@ -18,7 +18,7 @@
 
   @include onPhone {
     aspect-ratio: 7.4 / 1;
-    background-image: url("../../../public/img/mobile/money-basic.png");
+    background-image: url("../../styles/img/mobile/money-basic.png");
   }
 
   &::before, &::after {
@@ -40,10 +40,10 @@
   }
   
   &--current {
-    background-image: url("../../../public/img/desktop/money-current.png");
+    background-image: url("../../styles/img/desktop/money-current.png");
 
     @include onPhone {
-      background-image: url("../../../public/img/mobile/money-current.png");
+      background-image: url("../../styles/img/mobile/money-current.png");
     }
 
     &::before, &::after {

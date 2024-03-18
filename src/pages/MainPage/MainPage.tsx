@@ -1,6 +1,7 @@
 import React from 'react';
 import cn from 'classnames';
 import './MainPage.scss';
+import handImage from '../../styles/img/hand.png';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { setStage } from '../../store/gameSlice';
 import { getStingPrize } from '../../utils/helpers';
@@ -47,7 +48,7 @@ function MainPage() {
 
       <div className="main-page__hand">
         <img
-          src="img/hand.png"
+          src={handImage}
           alt="Thumbs Up"
           className="main-page__image"
         />

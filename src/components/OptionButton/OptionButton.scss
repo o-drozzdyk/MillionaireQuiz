@@ -1,5 +1,5 @@
-@import '../../utils/mixins.scss';
-@import '../../utils/colors.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/colors.scss';
 
 .button {
   position: relative;
@@ -8,14 +8,14 @@
   padding-inline: 8.31%;
   aspect-ratio: 5.18 / 1;
 
-  background-image: url("../../../public/img/desktop/option-basic.png");
+  background-image: url("../../styles/img/desktop/option-basic.png");
   background-color: transparent;
   background-size: cover;
 
   @include onPhone {
     width: 288px;
     height: 56px;
-    background-image: url("../../../public/img/mobile/option-basic.png");
+    background-image: url("../../styles/img/mobile/option-basic.png");
   }
 
   &::before, &::after {
@@ -37,10 +37,10 @@
   }
 
   &--correct {
-    background-image: url("../../../public/img/desktop/option-correct.png");
+    background-image: url("../../styles/img/desktop/option-correct.png");
 
     @include onPhone {
-      background-image: url("../../../public/img/mobile/option-correct.png");
+      background-image: url("../../styles/img/mobile/option-correct.png");
     }
 
     &::before, &::after {
@@ -49,10 +49,10 @@
   }
 
   &--wrong {
-    background-image: url("../../../public/img/desktop/option-wrong.png");
+    background-image: url("../../styles/img/desktop/option-wrong.png");
 
     @include onPhone {
-      background-image: url("../../../public/img/mobile/option-wrong.png");
+      background-image: url("../../styles/img/mobile/option-wrong.png");
     }
 
     &::before, &::after {
@@ -106,7 +106,7 @@
   }
 
   &:hover:not(.button--disabled) {
-    background-image: url("../../../public/img/desktop/option-hover.png");
+    background-image: url("../../styles/img/desktop/option-hover.png");
 
     &::before, &::after {
       background-color: $primary-btn;
@@ -114,10 +114,10 @@
   }
 
   &:active {
-    background-image: url("../../../public/img/desktop/option-selected.png");
+    background-image: url("../../styles/img/desktop/option-selected.png");
 
     @include onPhone {
-      background-image: url("../../../public/img/mobile/option-selected.png");
+      background-image: url("../../styles/img/mobile/option-selected.png");
     }
 
     &::before, &::after {

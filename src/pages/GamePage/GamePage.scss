@@ -1,5 +1,5 @@
-@import "../../utils/mixins.scss";
-@import "../../utils/colors.scss";
+@import "../../styles/mixins.scss";
+@import "../../styles/colors.scss";
 
 .page {
   display: flex;
@@ -71,15 +71,20 @@
     }
   }
 
-  &__menu-link {
+  &__button {
     display: none;
     width: 24px;
     height: 24px;
-    background-image: url("../../../public/img/menu.svg");
+    background-color: transparent;
+    border: none;
 
     @include onPhone {
       display: flex;
       align-self: end;
+    }
+
+    &--close {
+      margin-bottom: 24px;
     }
   }
 
@@ -91,33 +96,20 @@
 
     @include onPhone {
       display: none;
-      position: fixed;
+      position: absolute;
       top: 0;
       left: 0;
       right: 0;
       padding: 16px 16px 32px;
       width: 100%;
-      height: 100%;
+      min-height: 100vh;
       background-color: $primary-game-bg;
-
-      &:target {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
     }
-  }
 
-  &__close-icon {
-    display: none;
-    align-self: flex-end;
-    width: 24px;
-    height: 24px;
-    background-image: url("../../../public/img/close.svg");
-    background-size: cover;
-
-    @include onPhone {
-      display: block;
+    &--visible {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
   }
 }

@@ -1,5 +1,5 @@
-@import '../../utils/colors.scss';
-@import '../../utils/mixins.scss';
+@import '../../styles/colors.scss';
+@import '../../styles/mixins.scss';
 
 .main-page {
   position: relative;
@@ -49,6 +49,8 @@
     font-size: 20px;
     color: $primary-btn;
     background-color: transparent;
+
+    transition: color 0.3s ease;
 
     @include onLargeDesktop {
       font-size: 32px;
@@ -162,6 +164,8 @@
     font-weight: 600;
     color: $primary-white;
     background-color: $primary-btn;
+
+    transition: background-color 0.3s ease;
 
     @include onLargeDesktop {
       width: 444px;
